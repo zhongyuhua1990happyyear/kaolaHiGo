@@ -1,0 +1,11 @@
+body{background:#fff;}
+#list {width: 800px; text-align: center;border-spacing: 0;table-layout: fixed;margin: 30px auto;}
+ #list>tbody>tr{border: 1px solid #ccc;background: #f3b8b8;height: 87px;}
+#list>tbody>tr>td {margin-left: 30px;width: 20%;}
+#list>tbody>tr>td>button {height: 22px;width: 30px;font-size: 18px;outline: none;}
+#list>tbody>tr>td>button,
+#list>tbody>tr>td>input {border: 0;float: left; }
+.reduce {margin-left: 30px;}
+.num {text-align: center;}
+#list>tbody>tr>td>input {width: 40px;height: 20px;}
+.smallPic {width: 35px;height: 35px;}

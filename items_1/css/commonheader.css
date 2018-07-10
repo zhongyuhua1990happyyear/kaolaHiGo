@@ -1,0 +1,50 @@
+body{background:#f6f6f6;overflow-x:hidden;}
+.main{width:1090px;margin:0 auto;overflow:hidden;}
+nav#topnav{height:30px;border-bottom:1px solid #ededee;}
+ul.left{float:left;}
+ul.right{float:right;}
+ul.left>li{float:left;position:relative;}
+ul.right>li{float:right;position:relative;}
+ul.left>li>a,ul.right>li>a{font:normal 12px/30px Arial;color:#666;display:inline-block;}
+ul>li>span{font-size:12px;line-height:30px;color:#d3ccd3;}
+ul.left>li:nth-child(1)>a{padding-right:20px;}
+ul.left>li:nth-child(2)>a{padding-right:11px;}
+ul.left>li:nth-child(3)>a{padding-left:10px;padding-right:32px;}
+ul.right>li>a{padding:0 13px;display:inline-block;}
+ul.left>li>div.codeHidden{display:none;position:absolute;top:40px;left:-10px;padding:5px;border:1px solid #ccc;overflow:hidden;background:#fff;z-index:10;}
+ul.left>li:hover>div.codeHidden{display:block;}
+ul.left>li>div.codeHidden>img{height:100px;width:100px;display:block;border:none;margin-bottom:5px;}
+ul.left>li>div.codeHidden>p{font:normal 12px/20px Arial;color:#f00;text-align:center;}
+ul.right>li>ul{display:none;position:absolute;top:30px;left:-1px;box-shadow:0 1px 1px #333;padding:4px 15px 12px 14px;background:#fff;z-index:9;}
+ul.right>li>ul>li>a{display:block;height:28px;white-space:nowrap;font:normal 12px/28px Arial;color:#666;z-index:10;}
+/*ul.right>li.personal:hover{background:#fff;border-bottom:none;}*/
+ul.right>li:hover>ul{display:block;}
+ul.right>li>ul:last-child{right:50px;width:70px;}
+ul.right>li>ul>li{position:relative;}
+ul.right>li>ul>li>div.codeHidden{display:none;position:absolute;top:-20px;right:90px;padding:5px;border:1px solid #ccc;overflow:hidden;background:#fff;z-index:10;}
+ul.right>li>ul>li:hover>div.codeHidden{display:block;}
+ul.right>li>ul>li>div.codeHidden>img{height:90px;width:90px;display:block;border:none;}
+
+header{height:100px;width:100%;background:#fff;z-index:10;position:relative;}
+div.headerwrap>a#logokaola{display:block;width:330px;height:60px;margin-top:20px;
+	float:left;}
+div.headerwrap>div.headercent{width:510px;height:60px;margin-top:20px;float:left;}
+div.headerwrap>div.headercent>div{height:32px;width:506px;border:2px solid #333;}
+div.headerwrap>div.headercent>div>input#txt{display:inline-block;outline:none;border:none;
+	width:410px;height:24px;font:normal 12px/24px Arial;color:#ccc;position:relative;top:-3px;}
+div.headerwrap>div.headercent>div>span{display:inline-block;width:50px;height:32px;font:normal 16px/32px Arial;color:#fff;text-align:center;background:#000;float:right;}
+div.headerwrap>div.headercent>div>i:first-child{width:30px;height:32px;display:inline-block;font:14px/36px Arial;color:#ccc;text-align:center;}
+div.headerwrap>div.headercent>ul>li>a{float:left;display:inline-block;font:normal 12px/24px Arial;color:#999;}
+div.headerwrap>div.headercent>ul>li>span{float:left;display:inline-block;font-size:12px;line-height:24px;padding:0 10px;color:#999;}
+div.headerwrap>a:last-child{display:block;float:right;margin-top:20px;width:108px;height:34px;font-size:13px;line-height:34px;border:1px solid #ccc;border-radius:3px;}
+div.headerwrap>a>i{color:#ccc;margin-left:15px;}
+div.headerwrap>a>span{margin-left:6px;color:#333;}
+nav#bottomnav{width:100%;border-bottom:2px solid #000;background:#fff;height:40px;}
+nav#bottomnav>div>div{float:left;width:160px;height:40px;font-size:14px;color:#fff;line-height:40px;background:#000;overflow:hidden;position:relative;}
+nav#bottomnav>div>div:hover{overflow:visible;}
+nav#bottomnav>div>div>ul>li>a{display:block;width:160px;height:40px;font-size:14px;color:#fff;line-height:40px;border-left:2px solid #393434;box-sizing:border-box;position:relative;background:#393434;z-index:10;overflow:hidden;}
+nav#bottomnav>div>div>i,nav#bottomnav>div>div>ul>li>a>i{padding:0 10px 0 15px;}
+nav#bottomnav>div>div>ul>li>a:hover{background:grey;border-left:2px solid #f00;}
+nav#bottomnav>div>div>ul>li>a>i:last-child{position:absolute;right:20px;}
+nav#bottomnav>div>ul>li>a{float:left;display:inline-block;padding:0 20px;font:bold 15px/40px Arial;color:#333;}
+nav#bottomnav>div>ul>li:first-child>a{margin-left:20px;}
